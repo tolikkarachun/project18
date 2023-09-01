@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Gulp Starter Project my LemonSchool</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Unica+One&family=Vollkorn:wght@400;500;600;700&display=swap"
+		  rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="./css/main.css" />
+</head>
+
+<body>
+ 
+<!--@@include('components/footer.html')-->
+	<div class="wrapper">
+		@@include('components/header.html')
+		@@include('components/section/section-main.html')
+		@@include('components/section/section-services.html')
+		@@include('components/section/section-about.html')
+		<section class="section-exp"></section>
+		<section class="section-reviews"></section>
+		<section class="section-contacts"></section>
+		<footer class="footer"></footer>
+		
+	</div>
+	<script src="./js/index.bundle.js"></script>
+	<script>
+		function navToggle() {
+			document.getElementById("headerUl").classList.toggle("_active");
+			document.getElementById("headerBackdrop").classList.toggle("_active");
+		}
+	</script>
+</body>
+
+</html>

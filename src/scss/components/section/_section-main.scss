@@ -1,0 +1,100 @@
+.section-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: 52px;
+
+  &__content {
+    max-width: 493px;
+  }
+
+  &__info {
+    margin-top: 117px;
+    padding-right: 61px;
+  }
+  &__title {
+    text-align: end;
+    color: var(--c-text1);
+    font-family: var(--ff);
+    font-size: 53px;
+    font-weight: 400;
+    text-transform: uppercase;
+    max-width: 600px;
+    letter-spacing: 5.3px;
+  }
+
+  &__btn {
+    margin-top: 32px;
+    display: flex;
+    justify-content: end;
+    position: relative;
+  }
+  &__line {
+    position: absolute;
+    left: -30%;
+    bottom: 0px;
+  }
+  &__light {
+    position: absolute;
+    left: -145px;
+    top: -314px;
+  }
+  .section-main {
+    &__skills {
+      display: grid;
+      gap: 39px;
+    }
+  }
+
+  .skills-ach {
+    margin-top: 68px;
+    display: flex;
+    align-items: center;
+    gap: 92px;
+
+    &__count {
+      color: var(--c-text1);
+      font-family: var(--ff);
+      font-size: 40px;
+      font-weight: 400;
+      line-height: 180%;
+      text-transform: capitalize;
+      text-align: center;
+    }
+
+    &__title {
+      color: var(--c-primary);
+      font-family: var(--ff);
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 180%;
+      text-transform: capitalize;
+    }
+  }
+
+  .skills-tech {
+    border-top: 1px solid var(--c-sk-border);
+    border-bottom: 1px solid var(--c-sk-border);
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    padding: 14px 24px;
+  }
+
+  .cv {
+    border-radius: 29px;
+    border: 1px solid #777676;
+    padding: 32px;
+    &__text {
+      color: var(--c-text);
+      font-family: var(--ff-second);
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 180%;
+      text-transform: capitalize;
+      margin-bottom: 22px;
+    }
+  }
+}

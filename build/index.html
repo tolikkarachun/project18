@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Gulp Starter Project my LemonSchool</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Unica+One&family=Vollkorn:wght@400;500;600;700&display=swap"
+		  rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="./css/main.css" />
+</head>
+
+<body>
+ 
+
+	<div class="wrapper">
+		<header class="header container">
+	<a class="header__logo" href="/">
+		<div>FRONT-END</div>
+		<div>developer</div>
+	</a>
+	<div class="header__nav">
+		<div class="header__backdrop" id="headerBackdrop" onclick="navToggle()"></div>
+		<ul class="header__ul" id="headerUl">
+			<li class="header__li"><a class="header__a" href="/">About</a></li>
+			<li class="header__li"><a class="header__a _active" href="/">experience</a></li>
+			<li class="header__li"><a class="header__a" href="/">reviews</a></li>
+			<li class="header__li"><a class="header__a" href="/">contact</a></li>
+			<ul class="header__social">
+				<li class="header__li"><a href="/">
+						<img src="./img/social/git.png" alt="Github">
+					</a></li>
+				<li class="header__li"><a href="/">
+						<img src="./img/social/link.png" alt="Link">
+					</a></li>
+				<li class="header__li"><a href="/">
+						<img src="./img/social/telegram.png" alt="Telegram">
+					</a></li>
+			</ul>
+			
+			<span class="material-icons icon-close" onclick="navToggle()">close</span>
+		</ul>
+		<span class="material-icons icon-menu" onclick="navToggle()">menu</span>
+	</div>
+</header>
+
+		<section class="section-main container">
+    <div class="section-main__content">
+        <div class="developer">
+            <img src="./img/developer.png" alt="developer">
+        </div>
+        <div class="cv">
+            <div class="cv__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore Lorem
+                ipsum dolor sit amet, consectetur adipiscing elit,</div>
+            <div class="cv__btn">
+                <a href="/" class="btn _primary">
+                    <span>Download my CV</span>
+                    <img src="./img/arrow.svg" alt="arrow">
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="section-main__info">
+        <div class="section-main__title">Empower your ideas with our innovative</div>
+        <div class="section-main__btn">
+            <button class="btn-solutions">
+                <span>solutions</span>
+                <img src="./img/turn_off.png" alt="turn_off">
+            </button>
+            <div class="section-main__line">
+                <img src="./img/line.png" alt="line">
+            </div>
+            <div class="section-main__light">
+                <img src="./img/light-off.png" alt="light">
+            </div>
+        </div>
+        <div class="section-main__skills">
+            <div class="skills-ach">
+                <div class="skills-ach__item">
+                    <div class="skills-ach__count">+08</div>
+                    <div class="skills-ach__title">year of experience</div>
+                </div>
+                <div class="skills-ach__item">
+                    <div class="skills-ach__count">+100</div>
+                    <div class="skills-ach__title">complete Project</div>
+                </div>
+                <div class="skills-ach__item">
+                    <div class="skills-ach__count">+100</div>
+                    <div class="skills-ach__title">client satisfied </div>
+                </div>
+            </div>
+            <div class="skills-tech">
+                <div class="skills-ach__item"><img src="./img/skills/html.png" alt="html"></div>
+                <div class="skills-ach__item"><img src="./img/skills/css.png" alt="css"></div>
+                <div class="skills-ach__item"><img src="./img/skills/js.png" alt="js"></div>
+                <div class="skills-ach__item"><img src="./img/skills/react.png" alt="react"></div>
+                <div class="skills-ach__item"><img src="./img/skills/angular.png" alt="angular"></div>
+                <div class="skills-ach__item"><img src="./img/skills/node.png" alt="node"></div>
+            </div>
+        </div>
+    </div>
+</section>
+		<section class="section-services">
+    <div class="services container">
+        <div class="services-item">
+            <div class="services-item__icon">
+                <img src="./img/services/services-1.png" alt="services">
+            </div>
+            <div class="services-item__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</div>
+        </div>
+        <div class="services-item">
+            <div class="services-item__icon">
+                <img src="./img/services/services-2.png" alt="services">
+            </div>
+            <div class="services-item__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</div>
+        </div>
+        <div class="services-item">
+            <div class="services-item__icon">
+                <img src="./img/services/services-3.png" alt="services">
+            </div>
+            <div class="services-item__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</div>
+        </div>
+        <div class="services-item">
+            <div class="services-item__icon">
+                <img src="./img/services/services-4.png" alt="services">
+            </div>
+            <div class="services-item__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</div>
+        </div>
+    </div>
+</section>
+		<section class="section-about">
+    
+</section>
+		<section class="section-exp"></section>
+		<section class="section-reviews"></section>
+		<section class="section-contacts"></section>
+		<footer class="footer"></footer>
+		
+	</div>
+	<script src="./js/index.bundle.js"></script>
+	<script>
+		function navToggle() {
+			document.getElementById("headerUl").classList.toggle("_active");
+			document.getElementById("headerBackdrop").classList.toggle("_active");
+		}
+	</script>
+</body>
+
+</html>

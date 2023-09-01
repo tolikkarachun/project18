@@ -1,0 +1,23 @@
+// breakpoints
+$desktop-small: 1200px;
+$tablet: 992px;
+$tablet-small: 768px;
+$mobile: 576px;
+
+
+
+:root {
+	--ff: 'Unica One', cursive;
+	--transition: .2s all ease-in-out;
+
+	--c-primary: #F9CE37;
+	--c-text-white: #fff;
+	--c-border: #eee;
+	--body-bg: #1B1C21;
+	--ff-second:'Vollkorn',serif;
+	--c-text: #D9D9D9;
+	--c-text1: #f5f5f5;
+	--c-btn: #353535;
+	--c-sk-border: #777676;
+	--c-services-bg: #242529;
+}

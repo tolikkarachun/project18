@@ -1,0 +1,38 @@
+.btn {
+  border-radius: 30px;
+  border: 1px solid #777676;
+  padding: 8px 32px;
+  display: inline-flex;
+  align-items: center;
+  gap: 16px;
+  outline: 0;
+  cursor: pointer;
+  background: transparent;
+  color: var(--c-text);
+  font-family: var(--ff);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 180%;
+  letter-spacing: 0.64px;
+  text-transform: lowercase;
+}
+.btn-solutions {
+  position: relative;
+  z-index: 9;
+  display: inline-flex;
+  gap: 16px;
+  align-items: center;
+  border-radius: 30px;
+  border: 1px solid #f9ce37;
+  background: var(--c-text1);
+  box-shadow: 2px 4px 7px 0px rgba(249, 206, 55, 0.42);
+  padding: 24px 52px;
+  color: var(--c-btn);
+  font-family: var(--ff);
+  font-size: 53px;
+  font-weight: 400;
+  letter-spacing: 5.3px;
+  text-transform: uppercase;
+  cursor: pointer;
+  outline: 0;
+}
