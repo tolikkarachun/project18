@@ -8,9 +8,9 @@
 
   &__logo {
     border-radius: 0px 0px 30px 30px;
-    background: #f9ce37;
+    background: var(--c-primary);
     padding: 35px 18px;
-    color: #353535;
+    color: var(--c-btn);
     font-family: var(--ff-second);
     font-size: 24px;
     font-weight: 400;

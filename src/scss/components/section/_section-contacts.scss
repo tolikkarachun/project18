@@ -1,0 +1,127 @@
+.section-contacts {
+  padding-top: 110px;
+  padding-bottom: 110;
+  background: url("../img/contacts-bg.png") center/cover;
+  &__title {
+    color: var(--c-primary);
+    font-family: var(--ff);
+    font-size: 53px;
+    font-weight: 400;
+    letter-spacing: 5.3px;
+    text-transform: uppercase;
+    margin-bottom: 80px;
+  }
+}
+
+.map {
+  border-radius: 30px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(6px);
+  display: flex;
+  gap: 74px;
+  margin-bottom: 110px;
+  &__img {
+    flex-shrink: 0;
+    padding-left: 36px;
+    padding-top: 95px;
+    padding-bottom: 95px;
+  }
+
+  &__info {
+    padding-right: 67px;
+  }
+  &__header {
+    display: flex;
+    justify-content: flex-end;
+  }
+  &__logo {
+    border-radius: 0px 0px 30px 30px;
+    background: #f9ce37;
+    display: inline-block;
+    padding: 35px 18px;
+    color: #353535;
+    font-family: var(--ff-second);
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom: 17px;
+
+    div:last-child {
+      color: var(--c-text1);
+      font-family: var(--ff);
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      text-transform: lowercase;
+      position: absolute;
+      bottom: 24px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+}
+
+.contacts {
+  &__title {
+    display: inline-flex;
+    align-items: center;
+    gap: 27px;
+    color: var(--c-primary);
+    font-family: var(--ff);
+    font-size: 32px;
+    font-weight: 400;
+    letter-spacing: 3.2px;
+    text-transform: uppercase;
+    span {
+      color: var(--c-text1);
+      font-family: var(--ff);
+      font-size: 60px;
+      font-weight: 400;
+      line-height: 180%;
+      letter-spacing: 2.24px;
+      min-width: 42px;
+    }
+  }
+  &__desc {
+    color: var(--c-text);
+    font-family: var(--ff);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 34px;
+  }
+  &__item {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    span {
+      color: var(--c-primary);
+      font-family: var(--ff);
+      font-size: 32px;
+      font-weight: 400;
+      line-height: 180%;
+      letter-spacing: 2.24px;
+      min-width: 42px;
+    }
+  }
+
+  &__text {
+    color: var(--c-text1);
+    font-family: var(--ff);
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+  }
+
+  &__brace {
+    color: var(--c-text1);
+    font-family: var(--ff);
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 180%;
+    letter-spacing: 2.24px;
+    min-width: 42px;
+  }
+}
