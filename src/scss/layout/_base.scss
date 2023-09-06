@@ -9,6 +9,7 @@ body {
 .wrapper {
 	max-width: 1920px;
 	margin-inline: auto;
+	overflow: hidden;
 }
 .container {
 	max-width: calc(1264px + 40px);
