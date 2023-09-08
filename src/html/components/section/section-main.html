@@ -1,24 +1,29 @@
 <section class="section-main container">
     <div class="section-main__content">
-        <div class="developer">
+        <div class="developer"  data-aos="fade-up">
             <img src="./img/developer.png" alt="developer">
         </div>
         <div class="cv">
-            <div class="cv__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            <p class="cv__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                 incididunt ut labore et dolore Lorem
-                ipsum dolor sit amet, consectetur adipiscing elit,</div>
+                ipsum dolor sit amet, consectetur adipiscing elit,</p>
             <div class="cv__btn">
-                <a href="/" class="btn _primary">
+                <a href="./img/developer.png" class="btn _primary" download>
                     <span>Download my CV</span>
-                    <img src="./img/arrow.svg" alt="arrow">
+                    <span class="btn__icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="17" viewBox="0 0 22 17" fill="none">
+                            <path d="M13.9257 0.888305L20.9498 8.35919L13.9257 15.8301M1.27783 8.35919H20.7531" stroke="#F9CE37"
+                            stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </span>
                 </a>
             </div>
         </div>
     </div>
     <div class="section-main__info">
-        <div class="section-main__title">Empower your ideas with our innovative</div>
+        <h1 class="section-main__title focus-in-expand">Empower your ideas with our innovative</h1>
         <div class="section-main__btn">
-            <button class="btn-solutions">
+            <button class="btn-solutions shake-top" id="btnSolution" onclick="switchLight()" onmouseover="switchLight()" onmouseout="switchLight()">
                 <span>solutions</span>
                 <img src="./img/turn_off.png" alt="turn_off">
             </button>
@@ -26,31 +31,36 @@
                 <img src="./img/line.png" alt="line">
             </div>
             <div class="section-main__light">
+                <svg id="lighter" class="section-main__light-backdrop" xmlns="http://www.w3.org/2000/svg" width="59" height="64" viewBox="0 0 59 64" fill="none">
+                    <path
+                        d="M1.28402 24.3096C-1.11598 36.7096 12.284 53.4763 19.284 60.3096L21.7841 62.8096H38.2841C39.2841 62.9763 41.2841 62.7096 41.2841 60.3096C63.2841 33.8096 57.2841 28.3096 57.2841 21.3096C50.0841 0.509632 30.6174 -0.357036 21.7841 1.80963C15.9507 4.14296 3.68402 11.9096 1.28402 24.3096Z"
+                        fill="#F9CE37" stroke="#F9CE37" />
+                </svg>
                 <img src="./img/light-off.png" alt="light">
             </div>
         </div>
         <div class="section-main__skills">
             <div class="skills-ach">
-                <div class="skills-ach__item">
-                    <div class="skills-ach__count">+08</div>
-                    <div class="skills-ach__title">year of experience</div>
+                <div class="skills-ach__item focus-in-expand">
+                    <p class="skills-ach__count">+08</p>
+                    <h3 class="skills-ach__title">year of experience</h3>
                 </div>
-                <div class="skills-ach__item">
-                    <div class="skills-ach__count">+100</div>
-                    <div class="skills-ach__title">complete Project</div>
+                <div class="skills-ach__item focus-in-expand">
+                    <p class="skills-ach__count">+100</p>
+                    <h3 class="skills-ach__title">complete Project</h3>
                 </div>
-                <div class="skills-ach__item">
-                    <div class="skills-ach__count">+100</div>
-                    <div class="skills-ach__title">client satisfied </div>
+                <div class="skills-ach__item focus-in-expand">
+                    <p class="skills-ach__count">+100</p>
+                    <h3 class="skills-ach__title">client satisfied </h3>
                 </div>
             </div>
             <div class="skills-tech">
-                <div class="skills-ach__item"><img src="./img/skills/html.png" alt="html"></div>
-                <div class="skills-ach__item"><img src="./img/skills/css.png" alt="css"></div>
-                <div class="skills-ach__item"><img src="./img/skills/js.png" alt="js"></div>
-                <div class="skills-ach__item"><img src="./img/skills/react.png" alt="react"></div>
-                <div class="skills-ach__item"><img src="./img/skills/angular.png" alt="angular"></div>
-                <div class="skills-ach__item"><img src="./img/skills/node.png" alt="node"></div>
+                <div class="skills-ach__item"><img data-aos="zoom-in" src="./img/skills/html.png" alt="html"></div>
+                <div class="skills-ach__item"><img data-aos="zoom-in" src="./img/skills/css.png" alt="css"></div>
+                <div class="skills-ach__item"><img data-aos="zoom-in" src="./img/skills/js.png" alt="js"></div>
+                <div class="skills-ach__item"><img data-aos="zoom-in" src="./img/skills/react.png" alt="react"></div>
+                <div class="skills-ach__item"><img data-aos="zoom-in" src="./img/skills/angular.png" alt="angular"></div>
+                <div class="skills-ach__item"><img data-aos="zoom-in" src="./img/skills/node.png" alt="node"></div>
             </div>
         </div>
     </div>

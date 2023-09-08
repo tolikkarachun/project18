@@ -1,6 +1,10 @@
 .section-exp {
   margin-top: 72px;
   margin-bottom: 192px;
+  @include mobile {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
   &__title {
     color: var(--c-primary);
     font-family: var(--ff);
@@ -30,10 +34,22 @@
   align-items: center;
   padding-left: 116px;
   position: relative;
+  @include desktop-small {
+    padding-left: 0;
+    grid-template-columns: 1fr 1fr 2fr;
+    gap: 20px;
+  }
+  @include tablet-small {
+    grid-template-columns: 1fr;
+  }
   &:not(:last-child) {
     margin-bottom: 158px;
+    @include tablet-small {
+      margin-bottom: 20px;
+    }
   }
-  &::before, &::after {
+  &::before,
+  &::after {
     content: "< !--";
     color: var(--c-before);
     font-family: var(--ff);
@@ -44,6 +60,9 @@
     text-transform: capitalize;
     position: absolute;
     bottom: 6px;
+    @include desktop-small {
+      display: none;
+    }
   }
   &::after {
     content: "-->";

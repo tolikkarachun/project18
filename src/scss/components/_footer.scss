@@ -4,6 +4,12 @@
   justify-content: space-between;
   padding-top: 56px;
   padding-bottom: 56px;
+  @include tablet {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+  }
 
   &__logo {
     color: var(--c-text-white);
@@ -28,11 +34,23 @@
   &__nav {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    @include tablet {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 100px;
+    }
   }
   &__ul {
     display: flex;
     align-items: center;
     gap: 56px;
+    @include mobile {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
   }
 
   &__a {

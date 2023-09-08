@@ -10,6 +10,12 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 40px;
+  @include desktop-small {
+    grid-template-columns: 1fr 1fr;
+  }
+  @include mobile {
+    grid-template-columns: 1fr;
+  }
 }
 
 .services-item {
@@ -23,12 +29,12 @@
   }
 
   &__text {
-    max-width: 232px;
     color: var(--c-btn);
     font-family: var(--ff);
     font-size: 16px;
     font-weight: 400;
     line-height: 180%;
     text-transform: capitalize;
+    
   }
 }

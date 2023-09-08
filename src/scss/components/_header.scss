@@ -61,7 +61,7 @@
     z-index: 9;
 
     @include tablet {
-      z-index: 9;
+      z-index: 29;
       position: fixed;
       width: 70%;
       height: 100%;
@@ -83,7 +83,7 @@
       position: absolute;
       top: 40px;
       right: 40px;
-      color: var(--c-text-white);
+      color: var(--c-services-bg);
     }
   }
 &__social {
@@ -97,7 +97,7 @@
     font-size: 18px;
     font-weight: 400;
     text-transform: uppercase;
-	position: relative;
+	  position: relative;
 	&._active, &:hover {
 		&::before {
 			opacity: 1;
@@ -116,6 +116,9 @@
 		background: var(--c-primary);
 		bottom: -10px;
 		opacity: 0;
+    @include tablet {
+      background: var(--c-services-bg);
+    }
 
 	}
 	@include tablet {

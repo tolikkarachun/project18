@@ -81,6 +81,9 @@
   color: var(--c-primary);
   outline: 0;
   background: transparent;
+  @include mobile {
+    left: -20px;
+  }
 }
 #html .owl-next {
   position: absolute;
@@ -91,6 +94,9 @@
   color: var(--c-primary);
   outline: 0;
   background: transparent;
+  @include mobile {
+    right: -20px;
+  }
 }
 .owl-carousel .owl-nav button.owl-prev,
 .owl-carousel .owl-nav button.owl-next,
