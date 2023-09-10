@@ -68,11 +68,12 @@
       flex-direction: column;
       left: 0;
       top: 0;
-      background: var(--c-primary);
+      background: var(--c-reviews-bg);
       align-items: center;
       justify-content: center;
       transform: translateX(-120%);
       transition: var(--transition);
+      overflow: hidden;
     }
 
     &._active {
@@ -83,7 +84,7 @@
       position: absolute;
       top: 40px;
       right: 40px;
-      color: var(--c-services-bg);
+      color: var(--c-text1);
     }
   }
 &__social {
@@ -117,7 +118,7 @@
 		bottom: -10px;
 		opacity: 0;
     @include tablet {
-      background: var(--c-services-bg);
+      background: var(--c-primary);
     }
 
 	}
